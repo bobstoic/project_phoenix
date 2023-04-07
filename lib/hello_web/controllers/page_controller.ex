@@ -1,7 +1,7 @@
 defmodule HelloWeb.PageController do
   use HelloWeb, :controller
 
-  def index(conn, _params) do
-    render(conn, "index.html")
+  def hoemex(conn, _params) do
+    render(conn, :home, layout: false)
   end
 end
